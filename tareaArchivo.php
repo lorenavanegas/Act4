@@ -19,7 +19,7 @@
 			}
 		}else{
 			$error=1;
-			echo "<script>alert('La cantidad de caracteres de la identificacion no es valida');</script>";
+			echo "<script>alert('te faltan numeros');</script>";
 		}
 		
 		if($carac_nom<=$cnomb){
